@@ -1,0 +1,54 @@
+#heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: Gill Sans;
+    margin-top: 1%;
+}
+
+#dark{
+    font-size: 20px;
+}
+
+.box{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.mysymbol{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.mycontent{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.data{
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.mydark{
+    color: white;
+    background-color: black;
+}
+
+.mybutton{
+    color: white;
+}
+
+.mybutton:hover{
+    color: white;
+}
+
+.mydata{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
