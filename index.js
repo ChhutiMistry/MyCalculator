@@ -19,6 +19,10 @@ function changemode(){
     var m = document.getElementsByClassName(`data`)[15];
     var mmyborder = document.getElementsByClassName(`data`)[16];
     var myyborder = document.getElementsByClassName(`data`)[17];
+    var myyborderr = document.getElementsByClassName(`data`)[18];
+    var myyborderrr = document.getElementsByClassName(`data`)[19];
+    var mybox = document.getElementsByClassName(`box`)[0];
+    var myboxx = document.getElementsByClassName(`box`)[1];
     mybody.classList.toggle(`mydark`);
     mybutton.classList.toggle(`mybutton`);
     myborder.classList.toggle(`mydata`);
@@ -39,6 +43,10 @@ function changemode(){
     m.classList.toggle(`mydata`);
     mmyborder.classList.toggle(`mydata`);
     myyborder.classList.toggle(`mydata`);
+    myyborderr.classList.toggle(`mydata`);
+    myyborderrr.classList.toggle(`mydata`);
+    mybox.classList.toggle(`mybox`);
+    myboxx.classList.toggle(`mybox`);
 }
 
 function clearscreen() {
